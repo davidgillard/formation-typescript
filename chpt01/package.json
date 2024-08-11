@@ -1,6 +1,20 @@
 {
   "dependencies": {
-    "@types/inquirer": "^9.0.3",
-    "inquirer": "^9.1.4"
+    "inquirer": "^9.3.6"
+  },
+  "name": "chpt01",
+  "version": "1.0.0",
+  "description": "mes premiers pas en typescript",
+  "main": "basictypes.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Gillard",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
   }
 }

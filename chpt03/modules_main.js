@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Module1_1 = require("./modules/Module1");
+var MultipleExports_1 = require("./modules/MultipleExports");
+var MultipleExports = require("./modules/MultipleExports");
+var DefaultExport_1 = require("./modules/DefaultExport");
+var myRenameMod = new Module1_1.Module1();
+myRenameMod.print();
+var mc1 = new MultipleExports_1.MultipleClass1;
+var mc2 = new MultipleExports_1.MultipleClass2;
+var meMc1 = new MultipleExports.MultipleClass1();
+var meMc2 = new MultipleExports.MultipleClass2();
+var modDefault = (0, DefaultExport_1.default)(1, 2);
+var modNonDefault = new DefaultExport_1.ModuleNonDefaultExport();
